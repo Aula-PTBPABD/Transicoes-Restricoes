@@ -23,5 +23,3 @@ ADD endereco_id INT;
 ALTER TABLE pessoa
 ADD CONSTRAINT fk_endereco
 FOREIGN KEY (endereco_id) REFERENCES endereco(ID);
-
-CREATE SCHEMA avaliacaocontinua AUTHORIZATION dbo;
